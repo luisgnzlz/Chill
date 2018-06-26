@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA55396120DC879E00D9427C /* LookChillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55396020DC879E00D9427C /* LookChillViewController.swift */; };
 		AA71A3A120C4B32A0057C328 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA71A3A020C4B32A0057C328 /* AppDelegate.swift */; };
 		AA71A3A320C4B32A0057C328 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA71A3A220C4B32A0057C328 /* ViewController.swift */; };
-		AA71A3A620C4B32A0057C328 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA71A3A420C4B32A0057C328 /* Main.storyboard */; };
 		AA71A3A920C4B32A0057C328 /* Chill.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA71A3A720C4B32A0057C328 /* Chill.xcdatamodeld */; };
 		AA71A3AB20C4B32C0057C328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA71A3AA20C4B32C0057C328 /* Assets.xcassets */; };
 		AA71A3AE20C4B32C0057C328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA71A3AC20C4B32C0057C328 /* LaunchScreen.storyboard */; };
 		AA71A3B920C4B32C0057C328 /* ChillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA71A3B820C4B32C0057C328 /* ChillTests.swift */; };
 		AA71A3C420C4B32C0057C328 /* ChillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA71A3C320C4B32C0057C328 /* ChillUITests.swift */; };
+		AA71A3D520C4CE420057C328 /* ChillCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA71A3D420C4CE420057C328 /* ChillCollectionViewCell.swift */; };
+		AA8ED72920CDE8C3002A228D /* CollectionInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ED72820CDE8C3002A228D /* CollectionInformation.swift */; };
+		AAB222AA20DDB25500F0655D /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB222A920DDB25500F0655D /* UserInfo.swift */; };
+		AAB222AC20DDBC7F00F0655D /* AddChillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB222AB20DDBC7F00F0655D /* AddChillViewController.swift */; };
+		AAB222AE20DDBD1400F0655D /* addChillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB222AD20DDBD1400F0655D /* addChillView.swift */; };
+		AAC3EBEE20E1D66C001BEFE2 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC3EBED20E1D66C001BEFE2 /* CameraViewController.swift */; };
+		AAF4E47A20DC956F00D9282F /* LookChillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF4E47920DC956F00D9282F /* LookChillView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA55396020DC879E00D9427C /* LookChillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookChillViewController.swift; sourceTree = "<group>"; };
 		AA71A39D20C4B32A0057C328 /* Chill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA71A3A020C4B32A0057C328 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA71A3A220C4B32A0057C328 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AA71A3A520C4B32A0057C328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA71A3A820C4B32A0057C328 /* Chill.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chill.xcdatamodel; sourceTree = "<group>"; };
 		AA71A3AA20C4B32C0057C328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA71A3AD20C4B32C0057C328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		AA71A3BF20C4B32C0057C328 /* ChillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA71A3C320C4B32C0057C328 /* ChillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChillUITests.swift; sourceTree = "<group>"; };
 		AA71A3C520C4B32C0057C328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA71A3D420C4CE420057C328 /* ChillCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChillCollectionViewCell.swift; sourceTree = "<group>"; };
+		AA8ED72820CDE8C3002A228D /* CollectionInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionInformation.swift; sourceTree = "<group>"; };
+		AAB222A920DDB25500F0655D /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		AAB222AB20DDBC7F00F0655D /* AddChillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChillViewController.swift; sourceTree = "<group>"; };
+		AAB222AD20DDBD1400F0655D /* addChillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addChillView.swift; sourceTree = "<group>"; };
+		AAC3EBED20E1D66C001BEFE2 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		AAF4E47920DC956F00D9282F /* LookChillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookChillView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +114,9 @@
 			isa = PBXGroup;
 			children = (
 				AA71A3A020C4B32A0057C328 /* AppDelegate.swift */,
-				AA71A3A220C4B32A0057C328 /* ViewController.swift */,
-				AA71A3A420C4B32A0057C328 /* Main.storyboard */,
+				AA71A3D120C4CB000057C328 /* Controller */,
+				AA71A3D320C4CB350057C328 /* View */,
+				AA71A3D220C4CB0C0057C328 /* Model */,
 				AA71A3AA20C4B32C0057C328 /* Assets.xcassets */,
 				AA71A3AC20C4B32C0057C328 /* LaunchScreen.storyboard */,
 				AA71A3AF20C4B32C0057C328 /* Info.plist */,
@@ -126,6 +141,36 @@
 				AA71A3C520C4B32C0057C328 /* Info.plist */,
 			);
 			path = ChillUITests;
+			sourceTree = "<group>";
+		};
+		AA71A3D120C4CB000057C328 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA71A3A220C4B32A0057C328 /* ViewController.swift */,
+				AA55396020DC879E00D9427C /* LookChillViewController.swift */,
+				AAB222AB20DDBC7F00F0655D /* AddChillViewController.swift */,
+				AAC3EBED20E1D66C001BEFE2 /* CameraViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AA71A3D220C4CB0C0057C328 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA8ED72820CDE8C3002A228D /* CollectionInformation.swift */,
+				AAB222A920DDB25500F0655D /* UserInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA71A3D320C4CB350057C328 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA71A3D420C4CE420057C328 /* ChillCollectionViewCell.swift */,
+				AAF4E47920DC956F00D9282F /* LookChillView.swift */,
+				AAB222AD20DDBD1400F0655D /* addChillView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +279,6 @@
 			files = (
 				AA71A3AE20C4B32C0057C328 /* LaunchScreen.storyboard in Resources */,
 				AA71A3AB20C4B32C0057C328 /* Assets.xcassets in Resources */,
-				AA71A3A620C4B32A0057C328 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +303,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC3EBEE20E1D66C001BEFE2 /* CameraViewController.swift in Sources */,
 				AA71A3A320C4B32A0057C328 /* ViewController.swift in Sources */,
+				AAF4E47A20DC956F00D9282F /* LookChillView.swift in Sources */,
 				AA71A3A120C4B32A0057C328 /* AppDelegate.swift in Sources */,
 				AA71A3A920C4B32A0057C328 /* Chill.xcdatamodeld in Sources */,
+				AAB222AA20DDB25500F0655D /* UserInfo.swift in Sources */,
+				AAB222AC20DDBC7F00F0655D /* AddChillViewController.swift in Sources */,
+				AA8ED72920CDE8C3002A228D /* CollectionInformation.swift in Sources */,
+				AAB222AE20DDBD1400F0655D /* addChillView.swift in Sources */,
+				AA71A3D520C4CE420057C328 /* ChillCollectionViewCell.swift in Sources */,
+				AA55396120DC879E00D9427C /* LookChillViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AA71A3A420C4B32A0057C328 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA71A3A520C4B32A0057C328 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AA71A3AC20C4B32C0057C328 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
