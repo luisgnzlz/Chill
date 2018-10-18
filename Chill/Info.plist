@@ -20,6 +20,14 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Chll Would Like Permission To Use Your Camera</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Can We Use Your Location To Remind You Where You Have Been</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Need To Access Your Photo Library</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>To Save The Photo To Your Photo Library</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -29,8 +37,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>

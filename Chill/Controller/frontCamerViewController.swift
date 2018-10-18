@@ -9,13 +9,15 @@
 import UIKit
 import AVFoundation
 
-let takePic = takePicButton()
-let cancelBttn = cancelButton()
-let photoLibButton = photoLibraryButton()
-var editPhotoViewC = UINavigationController(rootViewController: EditPhotoViewController())
 
-class CameraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+class frontCamerViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+    let takePic = takePicButton()
+    let cancelBttn = cancelButton()
+    let photoLibButton = photoLibraryButton()
+    var editPhotoViewC = UINavigationController(rootViewController: EditPhotoViewController())
+    
     var captureSession = AVCaptureSession()
     var backCamera: AVCaptureDevice?
     var frontCamera: AVCaptureDevice?
@@ -26,7 +28,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .gray
-        cameraContr = self
+        frontCameraContr = self
         setUpCamerView()
         setupCaptureSession()
         setupDevice()
@@ -78,7 +80,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     }
     
     func setupDevice() {
-
+        
         let deviceDiscoverySession = AVCaptureDevice.DiscoverySession(deviceTypes: [AVCaptureDevice.DeviceType.builtInWideAngleCamera] , mediaType: AVMediaType.video, position: AVCaptureDevice.Position.unspecified)
         let devices = deviceDiscoverySession.devices
         
@@ -89,7 +91,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
                 frontCamera = device
             }
         }
-       currentCamera = backCamera
+        currentCamera = backCamera
     }
     
     func setupInputOutput() {
@@ -117,18 +119,15 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     }
     
     @objc func photoLibrary() {
-            let myPickerController = UIImagePickerController()
-            myPickerController.delegate = self
-            myPickerController.sourceType = .photoLibrary
-            myPickerController.allowsEditing = false
-            present(myPickerController, animated: true, completion: nil)
+        let myPickerController = UIImagePickerController()
+        myPickerController.delegate = self
+        myPickerController.sourceType = .photoLibrary
+        myPickerController.allowsEditing = false
+        present(myPickerController, animated: true, completion: nil)
     }
     
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-// Local variable inserted by Swift 4.2 migrator.
-let info = convertFromUIImagePickerControllerInfoKeyDictionary(info)
-
-        if let image = info[convertFromUIImagePickerControllerInfoKey(UIImagePickerController.InfoKey.originalImage)] as? UIImage
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        if let image = info[UIImagePickerControllerOriginalImage] as? UIImage
         {
             EditImageView.image = image
         } else {
@@ -148,7 +147,7 @@ let info = convertFromUIImagePickerControllerInfoKeyDictionary(info)
         dismiss(animated: true, completion: nil)
     }
     
-
+    
 }
 
 extension CameraViewController: AVCapturePhotoCaptureDelegate {
@@ -160,14 +159,4 @@ extension CameraViewController: AVCapturePhotoCaptureDelegate {
         }
     }
     
-}
-
-// Helper function inserted by Swift 4.2 migrator.
-fileprivate func convertFromUIImagePickerControllerInfoKeyDictionary(_ input: [UIImagePickerController.InfoKey: Any]) -> [String: Any] {
-	return Dictionary(uniqueKeysWithValues: input.map {key, value in (key.rawValue, value)})
-}
-
-// Helper function inserted by Swift 4.2 migrator.
-fileprivate func convertFromUIImagePickerControllerInfoKey(_ input: UIImagePickerController.InfoKey) -> String {
-	return input.rawValue
 }

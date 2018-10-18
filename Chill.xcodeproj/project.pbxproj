@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA0977F220E57CE8005D3839 /* EditPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0977F120E57CE8005D3839 /* EditPhotoViewController.swift */; };
+		AA0977F620E58B92005D3839 /* cancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0977F520E58B92005D3839 /* cancelButton.swift */; };
+		AA0977F820E59568005D3839 /* takePicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0977F720E59568005D3839 /* takePicButton.swift */; };
+		AA46EBD82107FC99008385D4 /* photoLibraryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA46EBD72107FC99008385D4 /* photoLibraryButton.swift */; };
+		AA46EBDA21080E52008385D4 /* deleteChillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA46EBD921080E52008385D4 /* deleteChillButton.swift */; };
+		AA46EBDC21082065008385D4 /* deleteNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA46EBDB21082065008385D4 /* deleteNum.swift */; };
+		AA4D5412216B05AC008B6A61 /* customCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D5411216B05AC008B6A61 /* customCell.swift */; };
+		AA4D5414216B05F1008B6A61 /* profileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D5413216B05F1008B6A61 /* profileSettings.swift */; };
 		AA55396120DC879E00D9427C /* LookChillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55396020DC879E00D9427C /* LookChillViewController.swift */; };
 		AA71A3A120C4B32A0057C328 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA71A3A020C4B32A0057C328 /* AppDelegate.swift */; };
 		AA71A3A320C4B32A0057C328 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA71A3A220C4B32A0057C328 /* ViewController.swift */; };
@@ -16,11 +24,19 @@
 		AA71A3B920C4B32C0057C328 /* ChillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA71A3B820C4B32C0057C328 /* ChillTests.swift */; };
 		AA71A3C420C4B32C0057C328 /* ChillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA71A3C320C4B32C0057C328 /* ChillUITests.swift */; };
 		AA71A3D520C4CE420057C328 /* ChillCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA71A3D420C4CE420057C328 /* ChillCollectionViewCell.swift */; };
+		AA7CBCFC20F5A0DB00FDCF5E /* EditPhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7CBCFB20F5A0DB00FDCF5E /* EditPhotoButton.swift */; };
+		AA7CBCFE20F5B5EE00FDCF5E /* discriptionTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7CBCFD20F5B5EE00FDCF5E /* discriptionTextView.swift */; };
+		AA7CBD0020F5BEA400FDCF5E /* EditImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7CBCFF20F5BEA400FDCF5E /* EditImageScrollView.swift */; };
 		AA8ED72920CDE8C3002A228D /* CollectionInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ED72820CDE8C3002A228D /* CollectionInformation.swift */; };
-		AAB222AA20DDB25500F0655D /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB222A920DDB25500F0655D /* UserInfo.swift */; };
-		AAB222AC20DDBC7F00F0655D /* AddChillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB222AB20DDBC7F00F0655D /* AddChillViewController.swift */; };
+		AAAE7E35210E691800DDCFCA /* LookChillScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE7E34210E691800DDCFCA /* LookChillScrollView.swift */; };
+		AAAE7E37210EA58200DDCFCA /* downloadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE7E36210EA58200DDCFCA /* downloadButton.swift */; };
+		AAB222AA20DDB25500F0655D /* locationDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB222A920DDB25500F0655D /* locationDate.swift */; };
 		AAB222AE20DDBD1400F0655D /* addChillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB222AD20DDBD1400F0655D /* addChillView.swift */; };
+		AAC37A8A210FBC030063F8BE /* filterButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC37A89210FBC030063F8BE /* filterButtons.swift */; };
 		AAC3EBEE20E1D66C001BEFE2 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC3EBED20E1D66C001BEFE2 /* CameraViewController.swift */; };
+		AAC73B4B20F4483D00540CC4 /* SSCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC73B4A20F4483D00540CC4 /* SSCache.swift */; };
+		AAE2B519211139AC00EA17D9 /* mapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2B518211139AC00EA17D9 /* mapView.swift */; };
+		AAE2B51B2111445100EA17D9 /* CustomPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2B51A2111445100EA17D9 /* CustomPin.swift */; };
 		AAF4E47A20DC956F00D9282F /* LookChillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF4E47920DC956F00D9282F /* LookChillView.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +58,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA0977F120E57CE8005D3839 /* EditPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhotoViewController.swift; sourceTree = "<group>"; };
+		AA0977F520E58B92005D3839 /* cancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cancelButton.swift; sourceTree = "<group>"; };
+		AA0977F720E59568005D3839 /* takePicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = takePicButton.swift; sourceTree = "<group>"; };
+		AA46EBD72107FC99008385D4 /* photoLibraryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoLibraryButton.swift; sourceTree = "<group>"; };
+		AA46EBD921080E52008385D4 /* deleteChillButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteChillButton.swift; sourceTree = "<group>"; };
+		AA46EBDB21082065008385D4 /* deleteNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteNum.swift; sourceTree = "<group>"; };
+		AA4D5411216B05AC008B6A61 /* customCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customCell.swift; sourceTree = "<group>"; };
+		AA4D5413216B05F1008B6A61 /* profileSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileSettings.swift; sourceTree = "<group>"; };
 		AA55396020DC879E00D9427C /* LookChillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookChillViewController.swift; sourceTree = "<group>"; };
 		AA71A39D20C4B32A0057C328 /* Chill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA71A3A020C4B32A0057C328 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,11 +81,19 @@
 		AA71A3C320C4B32C0057C328 /* ChillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChillUITests.swift; sourceTree = "<group>"; };
 		AA71A3C520C4B32C0057C328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA71A3D420C4CE420057C328 /* ChillCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChillCollectionViewCell.swift; sourceTree = "<group>"; };
+		AA7CBCFB20F5A0DB00FDCF5E /* EditPhotoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhotoButton.swift; sourceTree = "<group>"; };
+		AA7CBCFD20F5B5EE00FDCF5E /* discriptionTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discriptionTextView.swift; sourceTree = "<group>"; };
+		AA7CBCFF20F5BEA400FDCF5E /* EditImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditImageScrollView.swift; sourceTree = "<group>"; };
 		AA8ED72820CDE8C3002A228D /* CollectionInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionInformation.swift; sourceTree = "<group>"; };
-		AAB222A920DDB25500F0655D /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
-		AAB222AB20DDBC7F00F0655D /* AddChillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChillViewController.swift; sourceTree = "<group>"; };
+		AAAE7E34210E691800DDCFCA /* LookChillScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookChillScrollView.swift; sourceTree = "<group>"; };
+		AAAE7E36210EA58200DDCFCA /* downloadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = downloadButton.swift; sourceTree = "<group>"; };
+		AAB222A920DDB25500F0655D /* locationDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationDate.swift; sourceTree = "<group>"; };
 		AAB222AD20DDBD1400F0655D /* addChillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addChillView.swift; sourceTree = "<group>"; };
+		AAC37A89210FBC030063F8BE /* filterButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filterButtons.swift; sourceTree = "<group>"; };
 		AAC3EBED20E1D66C001BEFE2 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		AAC73B4A20F4483D00540CC4 /* SSCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSCache.swift; sourceTree = "<group>"; };
+		AAE2B518211139AC00EA17D9 /* mapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapView.swift; sourceTree = "<group>"; };
+		AAE2B51A2111445100EA17D9 /* CustomPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPin.swift; sourceTree = "<group>"; };
 		AAF4E47920DC956F00D9282F /* LookChillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookChillView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,10 +178,11 @@
 		AA71A3D120C4CB000057C328 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				AA4D5413216B05F1008B6A61 /* profileSettings.swift */,
 				AA71A3A220C4B32A0057C328 /* ViewController.swift */,
 				AA55396020DC879E00D9427C /* LookChillViewController.swift */,
-				AAB222AB20DDBC7F00F0655D /* AddChillViewController.swift */,
 				AAC3EBED20E1D66C001BEFE2 /* CameraViewController.swift */,
+				AA0977F120E57CE8005D3839 /* EditPhotoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -158,7 +191,10 @@
 			isa = PBXGroup;
 			children = (
 				AA8ED72820CDE8C3002A228D /* CollectionInformation.swift */,
-				AAB222A920DDB25500F0655D /* UserInfo.swift */,
+				AAB222A920DDB25500F0655D /* locationDate.swift */,
+				AAC73B4A20F4483D00540CC4 /* SSCache.swift */,
+				AA46EBDB21082065008385D4 /* deleteNum.swift */,
+				AAE2B51A2111445100EA17D9 /* CustomPin.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,9 +202,21 @@
 		AA71A3D320C4CB350057C328 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AA4D5411216B05AC008B6A61 /* customCell.swift */,
 				AA71A3D420C4CE420057C328 /* ChillCollectionViewCell.swift */,
 				AAF4E47920DC956F00D9282F /* LookChillView.swift */,
 				AAB222AD20DDBD1400F0655D /* addChillView.swift */,
+				AA0977F520E58B92005D3839 /* cancelButton.swift */,
+				AA0977F720E59568005D3839 /* takePicButton.swift */,
+				AA7CBCFB20F5A0DB00FDCF5E /* EditPhotoButton.swift */,
+				AA7CBCFD20F5B5EE00FDCF5E /* discriptionTextView.swift */,
+				AA7CBCFF20F5BEA400FDCF5E /* EditImageScrollView.swift */,
+				AA46EBD72107FC99008385D4 /* photoLibraryButton.swift */,
+				AA46EBD921080E52008385D4 /* deleteChillButton.swift */,
+				AAAE7E34210E691800DDCFCA /* LookChillScrollView.swift */,
+				AAAE7E36210EA58200DDCFCA /* downloadButton.swift */,
+				AAC37A89210FBC030063F8BE /* filterButtons.swift */,
+				AAE2B518211139AC00EA17D9 /* mapView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -241,13 +289,16 @@
 				TargetAttributes = {
 					AA71A39C20C4B32A0057C328 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
 					};
 					AA71A3B320C4B32C0057C328 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
 						TestTargetID = AA71A39C20C4B32A0057C328;
 					};
 					AA71A3BE20C4B32C0057C328 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
 						TestTargetID = AA71A39C20C4B32A0057C328;
 					};
 				};
@@ -303,17 +354,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4D5412216B05AC008B6A61 /* customCell.swift in Sources */,
+				AA46EBD82107FC99008385D4 /* photoLibraryButton.swift in Sources */,
 				AAC3EBEE20E1D66C001BEFE2 /* CameraViewController.swift in Sources */,
+				AA0977F820E59568005D3839 /* takePicButton.swift in Sources */,
+				AAC73B4B20F4483D00540CC4 /* SSCache.swift in Sources */,
+				AAC37A8A210FBC030063F8BE /* filterButtons.swift in Sources */,
+				AA7CBD0020F5BEA400FDCF5E /* EditImageScrollView.swift in Sources */,
+				AA46EBDC21082065008385D4 /* deleteNum.swift in Sources */,
+				AAE2B519211139AC00EA17D9 /* mapView.swift in Sources */,
 				AA71A3A320C4B32A0057C328 /* ViewController.swift in Sources */,
 				AAF4E47A20DC956F00D9282F /* LookChillView.swift in Sources */,
 				AA71A3A120C4B32A0057C328 /* AppDelegate.swift in Sources */,
 				AA71A3A920C4B32A0057C328 /* Chill.xcdatamodeld in Sources */,
-				AAB222AA20DDB25500F0655D /* UserInfo.swift in Sources */,
-				AAB222AC20DDBC7F00F0655D /* AddChillViewController.swift in Sources */,
+				AAAE7E35210E691800DDCFCA /* LookChillScrollView.swift in Sources */,
+				AAB222AA20DDB25500F0655D /* locationDate.swift in Sources */,
+				AA7CBCFE20F5B5EE00FDCF5E /* discriptionTextView.swift in Sources */,
+				AAE2B51B2111445100EA17D9 /* CustomPin.swift in Sources */,
+				AAAE7E37210EA58200DDCFCA /* downloadButton.swift in Sources */,
 				AA8ED72920CDE8C3002A228D /* CollectionInformation.swift in Sources */,
+				AA0977F220E57CE8005D3839 /* EditPhotoViewController.swift in Sources */,
 				AAB222AE20DDBD1400F0655D /* addChillView.swift in Sources */,
 				AA71A3D520C4CE420057C328 /* ChillCollectionViewCell.swift in Sources */,
+				AA46EBDA21080E52008385D4 /* deleteChillButton.swift in Sources */,
+				AA4D5414216B05F1008B6A61 /* profileSettings.swift in Sources */,
+				AA7CBCFC20F5A0DB00FDCF5E /* EditPhotoButton.swift in Sources */,
 				AA55396120DC879E00D9427C /* LookChillViewController.swift in Sources */,
+				AA0977F620E58B92005D3839 /* cancelButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,7 +554,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = LGJ.Chill;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -505,7 +572,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = LGJ.Chill;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -525,7 +592,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = LGJ.ChillTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chill.app/Chill";
 			};
@@ -546,7 +613,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = LGJ.ChillTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chill.app/Chill";
 			};
@@ -566,7 +633,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = LGJ.ChillUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Chill;
 			};
@@ -586,7 +653,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = LGJ.ChillUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Chill;
 			};

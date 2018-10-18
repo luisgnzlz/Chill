@@ -9,10 +9,12 @@
 import UIKit
 
 let addView = addChillView()
-let mainController = ViewController()
+let layout = UICollectionViewFlowLayout()
+var viewController = ViewController(collectionViewLayout: layout)
 
 class AddChillViewController: UIViewController {
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
@@ -41,14 +43,14 @@ class AddChillViewController: UIViewController {
         addTextField.text = ""
         dismiss(animated: true, completion: nil)
     }
-    
+   
+    /*
     @objc func addChillMem() {
-        print(info.init().chillArray)
-        arraydiscription[info.init().testCount] = addTextField.text
+        viewController.hi(input: addTextField.text!)
         addTextField.text = ""
-        mainController.hi()
+        viewController.collectionView?.reloadData()
         dismiss(animated: true, completion: nil)
-        print(info.init().chillArray)
+        print(info.init().testCount)
     }
-    
+    */
 }

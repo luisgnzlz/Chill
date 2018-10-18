@@ -9,30 +9,44 @@
 import Foundation
 import UIKit
 
-var arraydiscription = [3: "three", 5: "five", 0: "zero", 1: "one", 4: "four", 2: "two"]
+let userDefaults = UserDefaults.standard
 
 struct info {
     
-    var chillArray: [Int: String]
-    var testCount: Int
-    var othertest: Int
-    
-    init(discription: Dictionary<Int, String>) {
-        arraydiscription = discription
-        chillArray = arraydiscription
-        testCount = arraydiscription.count
-        othertest = 0
-    }
+    var discriptionArray = [String]()
+    var latitudeArray = [Double]()
+    var longituteArray = [Double]()
+    var ListlatitudeArray = [Double]()
+    var ListlongituteArray = [Double]()
+    var DateArray = [Date]()
+    var discriptionString = [String]()
+    var discriptionNumber: Int?
+    var lat = Double()
+    var long = Double()
+    var date = Date()
     
     init() {
-        chillArray = arraydiscription
-        testCount = arraydiscription.count
-        othertest = 0
+        discriptionString = userDefaults.stringArray(forKey: "discription") ?? [String]()
+        ListlatitudeArray = userDefaults.array(forKey: "latitude") as? [Double] ?? [Double]()
+        ListlongituteArray = userDefaults.array(forKey: "longitute") as? [Double] ?? [Double]()
+        discriptionNumber = discriptionString.count
     }
     
-    init(runThrough: Int) {
-        othertest = runThrough
-        chillArray = arraydiscription
-        testCount = arraydiscription.count
+    init(newDis: String, lat:Double, long:Double) {
+        discriptionArray = userDefaults.stringArray(forKey: "discription") ?? [String]()
+        discriptionArray.append(newDis)
+        userDefaults.set(discriptionArray, forKey: "discription")
+        latitudeArray = userDefaults.array(forKey: "latitude") as? [Double] ?? [Double]()
+        latitudeArray.append(lat)
+        userDefaults.set(latitudeArray, forKey: "latitude")
+        longituteArray = userDefaults.array(forKey: "longitute") as? [Double] ?? [Double]()
+        longituteArray.append(long)
+        userDefaults.set(longituteArray, forKey: "longitute")
     }
+    init(delete: Int) {
+        discriptionArray = userDefaults.stringArray(forKey: "discription") ?? [String]()
+        discriptionArray[delete] = "No Need For the Memory"
+        userDefaults.set(discriptionArray, forKey: "discription")
+    }
+
 }
